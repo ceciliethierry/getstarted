@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mountain Club</title>
+    <!--forbudt inline styling med font og noget der giver fejl i CSS som jeg har givet op på at rette ØVVVVV-->
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <!--navigation-->
+        <div class="topnav">
+            <a href="index.html" class="active">HJEM</a>
+            <a href="leje.html" class="active">LEJE</a>
+            <a href="klub.html" class="active">MOUNTAIN CLUB
+            </a>
+        </div>
+        <!--Logo-->
+        <a href="index.html"> <img src="images/jensen.png" alt="Jensen Cykler logo" class="logo">
+        </a>
+    </header>
+    <main class="main">
+        <!--overskrift-->
+        <h1 class="h1">Get going!</h1>
+
+        <!--koncept billede-->
+        <img src="images/klub.jpg" class="responsive" alt="Men bicycling in the nature while the sun is setting">
+        <article>
+            
+              <!--underoverskrift-->
+            <h2 class="h2"> Bliv en del af Mountain Club!
+
+            </h2>
+            <!--brødtekst-->
+            <p class="tekst">Mangler du nogen at dele din cykelglæde med? Nogen at fræse gennem de danske skove med? Eller måske nogen at konkurrere imod og noget at sætte nye rekorder med? <br><br>
+
+                I Mountain Club skaber vi relationer mellem alle typer af cyklister.
+                Det er gratis og meget enkelt at melde sig ind i klubben. <br>
+                Du skal blot udfylde nogle generelle informationer om dig selv og din cykelstil og disse informationer kan selvfølgelig altid justeres. <br>
+                <br>
+                Du definerer dine behov og så finder vi nogen at matche dig op med.
+
+                Hvis du ikke ejer en mountain bike kan du nemt og billigt <a href="leje.html" id="leje">leje hos os</a> og finde ud af om mountain biking er noget for dig!
+            </p>
+        </article>
+        <!--formular-->
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="navn">Jeg hedder</label>
+                <input type="text" id="navn" name="navn" placeholder="Dit fulde navn">
+
+                <label for="mail">Kontakt mig her</label>
+                <input type="text" id="mail" name="mail" placeholder="Din email">
+
+                <label for="by">Jeg cykler i</label>
+                <select id="by" name="by">
+                    <option value="Aarhus">Aarhus</option>
+                    <option value="Aalborg">Aalborg</option>
+                    <option value="Odense">Odense</option>
+                    <option value="København">København</option>
+                </select>
+                <label for="niveau">Jeg er</label>
+                <select id="niveau" name="niveau">
+                    <option value="begynder">Begynder</option>
+                    <option value="Øvet">Øvet</option>
+                    <option value="Ekspert">Ekspert</option>
+                </select>
+                <label for="søger">Jeg søger</label>
+                <select id="søger" name="søger">
+                    <option value="Én cykelven">Én cykelven</option>
+                    <option value="Flere cykelvenner">Flere cykelvenner</option>
+                </select>
+                <label for="konkurrence">Jeg søger nogen at cykle</label>
+                <select id="konkurrence" name="konkurrence">
+                    <option value="med">Med</option>
+                    <option value="Imod">Imod</option>
+                </select>
+                <label for="when">Jeg cykler typisk</label>
+                <select id="when" name="when">
+                    <option value="Hverdagen">Mest i hverdagen</option>
+                    <option value="Weekenden">Mest i weekenden</option>
+                    <option value="Både i hverdagen og weekenden">Både i hverdagen og i weekenden</option>
+                </select>
+
+               <input type="submit" value="Get me going!">
+
+            </form>
+        </div>
+
+
+    </main>
+    <!--footer-->
+    <footer class="footer">
+        <p>Jensen Cykler © 2021</p>
+    </footer>
+
+</body></html>

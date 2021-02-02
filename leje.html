@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mountain Club</title>
+    
+<!--  forbudt inline styling med fonttype og fejl i CSS som har givet op at rette på-->
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <!-- navigationsbar--> 
+        <div class="topnav">
+            <a href="index.html" class="active">HJEM</a>
+            <a href="leje.html" class="active">LEJE</a>
+            <a href="klub.html" class="active">MOUNTAIN CLUB
+            </a>
+        </div>
+        <!-- logo-->
+       <a href="index.html"> <img src="images/jensen.png" alt="Jensen Cykler logo" class="logo">
+        </a>
+    </header>
+    <main>
+        <!-- overskrift-->
+        <h1 class="h1">Get started!</h1>
+        
+        <!--koncept banner -->
+        
+        <img src="images/lejecykel2.jpg" class= "responsive" alt="a man on a bycicle in the nature">
+        
+         <!--Underoverskrift-->
+        <article>
+        <h2 class="h2">Prøv en mountain bike!</h2>
+        
+         <!--brødtekst-->
+
+        <p class="tekst">Har du før begivet dig ud i nye projekter og brugt en masse penge på udstyr, for kort tid efter at miste interessen? <br> Synes du at det til tider kan være besværligt, dyrt og uoverskueligt at skulle vedligeholde alt dit udstyr?
+Holder det dig tilbage for at prøve nye ting af? <br><br>
+
+
+Hos Jensen Cykler udlejer vi mountainbikes på timebasis, så du kan få en fed oplevelse i naturen, uden at skulle bruge hele din opsparing på en cykel som du måske ikke får brugt så meget som du havde håbet på.
+
+Vi vil gerne bidrage til folks cykelglæde og give alle mulighed og inspiration til at gå i kast med mountain biking!<br> <br>
+
+
+Du har måske prøvet at leje en cykel som turist i en ny by? <br>
+            Det fungerer lidt på samme måde. 
+
+Du indtaster dine oplysninger og ønsker nedenfor.
+      Du vil modtage en anmodning fra MobilePay hvorigennem betalingen ordnes. Herefter modtager du en e-mail med informationer om hvor og hvordan du finder cyklen, samt hvor og hvordan den afleveres tilbage igen. <br>
+<br>
+            Når du har lejet en cykel hos os får du efterfølgende 10% rabat på køb af en MTB hvis du køber inden for 2 mdr efter endt leje. <br> <br>
+Hvis du mangler nogen at cykle med kan vi anbefale at du tjekker <a href="klub.html">Mountain Club</a> ud, hvor vi skaber relationer mellem alle typer af cyklister, som søger nogen at cykle med eller imod!
+</p>
+    </article>
+        
+        <!--formular-->
+
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="navn">Jeg hedder</label>
+                <input type="text" id="navn" name="navn" placeholder="Dit fulde navn">
+
+                <label for="adresse">Min adresse er</label>
+                <input type="text" id="adresse" name="adresse" placeholder="Adresse, by, postnummer">    <label for="mail">Kontakt mig her</label>
+                <input type="text" id="mail" name="mail" placeholder="Din email">
+                <label for="nr">Mit telefon nr. er</label>
+                <input type="text" id="nr" name="nr" placeholder="Dit telefon nr">
+                
+
+                <label for="by">Jeg ønsker at cykle i</label>
+                <select id="by" name="by">
+                    <option value="Aarhus">Aarhus</option>
+                      <option value="Aalborg">Aalborg</option>
+                    <option value="Odense">Odense</option>
+                    <option value="København">København</option>
+                </select>
+                   <label for="tid">Jeg ønsker at leje i</label>
+                <select id="tid" name="tid">
+                    <option value="2 timer">2 timer</option>
+                    <option value="3 timer">3 timer</option>
+                    <option value="4 timer">4 timer</option> <option value="5 timer">5 timer</option>
+                    <option value="6 timer">6 timer</option>
+                    <option value="7 timer">7 timer</option>
+                     <option value="8 timer">8 timer</option>
+                    <option value="9 timer">9 timer</option>
+                    <option value="10 timer">10 timer</option>
+                </select>
+
+                <input type="submit" value="Get me started!">
+
+            </form>
+        </div>
+
+    </main>
+    <!--footer-->
+    <footer class="footer">
+        <p>Jensen Cykler © 2021</p>
+    </footer>
+
+</body></html>
