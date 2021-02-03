@@ -11,7 +11,7 @@ body {
     color: white;
     background-color: #080332;
     padding: 8px;
-    text-align: right;
+    text-align: right; 
 }
 
 .topnav li {
@@ -29,14 +29,21 @@ body {
 
 /* styling af overskrifter*/ 
 
+.linkitekst{
+    color: #3366ff;
+}
+
 .h1 {
     padding: 20px;
     text-align: center;
     font-size: 50px;
+    color: #212529;
 }
 .h2 {
     border: 30px;
     font-size: 30px;
+    color: #212529;
+    
 }
 
 .active {
@@ -44,10 +51,25 @@ body {
     text-decoration: none;
 }
 
+/*styling af konceptbeskrivelse*/ 
+
+.beskrivelse{
+    text-align: center;
+    text-decoration:overline;
+    
+    
+}
+
 /* styling af brødtekst*/
 
 .tekst {
     font-size: 17px;
+    color: #212529;
+}
+
+.artikler {
+    margin-left: 40px;
+    margin-right: 20px;
 }
 
 /* styling af billeder*/
@@ -77,7 +99,7 @@ textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical
+    resize: vertical;
     
 }
 

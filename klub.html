@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <title>Mountain Club</title>
-    <!--forbudt inline styling med font og noget der giver fejl i CSS som jeg har givet op på at rette ØVVVVV-->
+    
+    <!--Google skrifttype-->
+    
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet"> 
 </head>
@@ -15,12 +17,14 @@
 <body>
     <header>
         <!--navigation-->
+        <nav>
         <div class="topnav">
             <a href="index.html" class="active">HJEM</a>
             <a href="leje.html" class="active">LEJE</a>
             <a href="klub.html" class="active">MOUNTAIN CLUB
             </a>
         </div>
+        </nav> 
         <!--Logo-->
         <a href="index.html"> <img src="images/jensen.png" alt="Jensen Cykler logo" class="logo">
         </a>
@@ -31,7 +35,7 @@
 
         <!--koncept billede-->
         <img src="images/klub.jpg" class="responsive" alt="Men bicycling in the nature while the sun is setting">
-        <article>
+        <article class="artikler">
             
               <!--underoverskrift-->
             <h2 class="h2"> Bliv en del af Mountain Club!
@@ -46,9 +50,10 @@
                 <br>
                 Du definerer dine behov og så finder vi nogen at matche dig op med.
 
-                Hvis du ikke ejer en mountain bike kan du nemt og billigt <a href="leje.html" id="leje">leje hos os</a> og finde ud af om mountain biking er noget for dig!
+                Hvis du ikke ejer en mountain bike kan du nemt og billigt <a class="linkitekst" href="leje.html">leje hos os</a> og finde ud af om mountain biking er noget for dig!
             </p>
-        </article>
+            </article>
+        
         <!--formular-->
         <div class="container">
             <form action="action_page.php">
@@ -90,10 +95,9 @@
                 </select>
 
                <input type="submit" value="Get me going!">
-
             </form>
+            
         </div>
-
 
     </main>
     <!--footer-->
